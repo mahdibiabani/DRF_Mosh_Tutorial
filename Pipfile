@@ -19,6 +19,7 @@ celery = "*"
 flower = "*"
 drf-yasg = "*"
 django-jazzmin = "*"
+django-redis = "*"
 
 [dev-packages]
 autopep8 = "*"
