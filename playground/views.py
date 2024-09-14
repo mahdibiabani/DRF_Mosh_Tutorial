@@ -7,8 +7,26 @@ from rest_framework.views import APIView
 from templated_mail.mail import BaseEmailMessage
 from .tasks import notify_customers
 import requests
+import logging
 
 
+'''
+using logger in project
+'''
+# logger = logging.getLogger(__name__)
+
+# class Helloview(APIView):
+#     def get(self, request):
+#           try:
+#                logger.info('calling httpbin')
+#                response = requests.get('https://httpbin.org/delay/2')
+#                logger.info('recieved the response')
+#                data= response.json()
+#           except requests.ConnectionError:
+#                logger.critical('httpbinis offline')     
+#           return render(request, 'hello.html', {'name': 'Mahdi'})
+
+#---------------------------------------------------------------
 """
 classbase view
 """
