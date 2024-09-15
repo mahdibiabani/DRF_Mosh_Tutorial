@@ -21,6 +21,7 @@ drf-yasg = "*"
 django-jazzmin = "*"
 django-redis = "*"
 whitenoise = "*"
+gunicorn = "*"
 
 [dev-packages]
 autopep8 = "*"
